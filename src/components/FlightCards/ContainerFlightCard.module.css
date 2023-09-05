@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+  }
+  
+  .filters {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filterGroup {
+    margin-bottom: 20px;
+  }
+  
+  .sectionTitle {
+    font-weight: bold;
+  }
+  
+  .filterItem {
+    margin-bottom: 10px;
+  }
+
+  .showMore {
+    display: flex;
+    justify-content: center;
+    margin-right: 8%;
+    margin-top: 20px;
+  }
+  
+  .showMore button {
+    padding: 10px 20px;
+    background-color: rgb(74, 74, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .showMore button:hover {
+    background-color: rgb(50, 50, 200);
+  }
+
+  

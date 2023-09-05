@@ -1,0 +1,63 @@
+
+.departureArrival {
+  align-items: flex-start;
+  margin-right: 12%;
+  margin-top: 2%;
+}
+
+.cityFlight {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+}
+
+.arrivalCity{
+  flex-grow: 1;
+  text-align: right;
+
+}
+.departureCity {
+  flex-grow: 1;
+  text-align: left;
+
+}
+
+.time {
+  display: flex;
+  flex-direction: row;
+}
+
+.departureTime{
+  flex-grow: 1;
+  text-align: left;
+}
+
+.arrivalTime {
+  flex-grow: 1;
+  text-align: right;
+}
+.duration {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.transfer {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.airline {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1; 
+  text-align: right;
+  margin-top: 2%;
+}
+
+.line {
+  margin-left: 10px; 
+  height: 100%; 
+  width: 90%;
+
+}
+
